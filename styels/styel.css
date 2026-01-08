@@ -122,3 +122,81 @@ p{
     border: 1px solid white;
     color: whitesmoke;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #fff5f5;
+}
+
+.problem{
+    padding: 80px 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.problem-header h2{
+    font-size: 36px;
+    margin-bottom: 12px;
+    color: #0b101b;
+
+}
+
+.problem-header p{
+    color: #627382;
+    max-width: 700px;
+    margin: 0 auto 60px;
+
+}
+
+.cards{
+    display: flex;
+    gap: 25px;
+}
+
+.card{
+    background: #ffffff;
+    color: #627382;
+    padding: 35px 25px;
+    border-radius: 14px;
+    transition:0.3s ease ;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    background: #b7ebe0;
+}
+
+.image-box{
+    width: 55px;
+    height: 55px;
+    background: #ff4d4d;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-box img{
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+.card h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.card p{
+    font-size: 14px;
+    color: #666;
+
+}
+

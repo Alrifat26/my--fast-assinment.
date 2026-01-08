@@ -286,3 +286,86 @@ body {
   position: absolute;
   left: 0;
 }
+
+
+.footer {
+  background: linear-gradient(180deg, #031b33, #021224);
+  color: #fff;
+  padding: 50px 80px 30px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-left img {
+  width: 140px;
+  height: 60px;
+}
+
+.footer-left h3 {
+  font-size: 22px;
+  color: #5cd6a2;
+}
+
+.footer-left p {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.footer-right p {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons a {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: #f2fff9;
+  color: #021224;
+}
+
+.footer-divider {
+  height: 1px;
+  background: #1c334d;
+  margin: 35px 0 20px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+@media (max-width: 600px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

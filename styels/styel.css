@@ -200,3 +200,89 @@ body{
 
 }
 
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+.solution {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 80px 100px;
+  justify-content: space-evenly;
+}
+
+.diagram {
+  position: relative;
+  width: 480px;
+  height: 480px;
+}
+
+.outer-circle {
+  position: absolute;
+  inset: 0;
+  border: 2px dashed #ddd;
+  border-radius: 50%;
+}
+
+.inner-circle {
+  position: absolute;
+  inset: 80px;
+  border: 3px solid #3b7f5a;
+  border-radius: 50%;
+}
+
+
+.center-img {
+  width: 600px;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+
+.content {
+  max-width: 500px;
+}
+
+.label {
+  color: #3bb273;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content h2 {
+  font-size: 36px;
+  margin: 15px 0;
+}
+
+.content p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.content ul {
+  list-style: none;
+}
+
+.content ul li {
+  margin-bottom: 12px;
+  padding-left: 22px;
+  position: relative;
+}
+
+.content ul li::before {
+  content: "✔";
+  color: #3bb273;
+  position: absolute;
+  left: 0;
+}
